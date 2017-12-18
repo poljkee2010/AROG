@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace test { 
+//namespace test { 
 public class MenuScript : MonoBehaviour {
 
     public GameObject levelChanger; // Смена уровня
@@ -38,7 +38,7 @@ public class MenuScript : MonoBehaviour {
 
 	public void OnClickStart()
 	{
-	    Debug.Assert(levelChanger != null, "levelChanger != null");
+	//    Debug.Assert(levelChanger != null, "levelChanger != null");
 	    levelChanger.SetActive(true); //если нажатии на кнопку "НАЧАТЬ ИГРУ" сможем выбирать уровни 
 	}
     public void OnClickExit()
@@ -67,4 +67,4 @@ public class MenuScript : MonoBehaviour {
 		SceneManager.LoadScene("Menu");
 	}
 }
-}
+//}
