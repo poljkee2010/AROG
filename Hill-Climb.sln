@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hill-Climb", "Assembly-CSharp-firstpass.csproj", "{D19EA898-82D9-1CF1-434E-9A5D06B68310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hill-Climb", "Assembly-CSharp.csproj", "{F7582555-E51D-4D8D-069E-ED2ED466A512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hill-Climb", "Assembly-CSharp-Editor-firstpass.csproj", "{28CF2860-C3B1-70A6-2694-4886744CFA11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D19EA898-82D9-1CF1-434E-9A5D06B68310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19EA898-82D9-1CF1-434E-9A5D06B68310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19EA898-82D9-1CF1-434E-9A5D06B68310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19EA898-82D9-1CF1-434E-9A5D06B68310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7582555-E51D-4D8D-069E-ED2ED466A512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7582555-E51D-4D8D-069E-ED2ED466A512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7582555-E51D-4D8D-069E-ED2ED466A512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7582555-E51D-4D8D-069E-ED2ED466A512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CF2860-C3B1-70A6-2694-4886744CFA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CF2860-C3B1-70A6-2694-4886744CFA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CF2860-C3B1-70A6-2694-4886744CFA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CF2860-C3B1-70A6-2694-4886744CFA11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
