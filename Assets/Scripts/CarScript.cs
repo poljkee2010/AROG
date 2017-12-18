@@ -67,7 +67,7 @@ public class CarScript : MonoBehaviour { //Названия основного �
         {
             if (ControlCar[0].clickedIs == true)
             {
-                backWheel.motorSpeed = Mathf.Clamp(backWheel.motorSpeed - (acceleration - gravity * Mathf.PI * (angleCar / 2) * (GetComponent<Rigidbody2D>().velocity.sqrMagnitude * 1.75f)) * Time.fixedDeltaTime, maxSpeed, maxBackSpeed);
+                backWheel.motorSpeed = Mathf.Clamp(backWheel.motorSpeed - (acceleration - gravity * Mathf.PI * (angleCar / 2)) * Time.fixedDeltaTime, maxSpeed, maxBackSpeed);
                 currentFuel -= fuelUsage * Time.deltaTime; //минисуем бензин
             }
             else if ((backWheel.motorSpeed < 0) || (ControlCar[0].clickedIs == false && backWheel.motorSpeed == 0 && angleCar < 0))
@@ -84,7 +84,7 @@ public class CarScript : MonoBehaviour { //Названия основного �
             else if (ControlCar[0].clickedIs == false && backWheel.motorSpeed > 0) backWheel.motorSpeed = Mathf.Clamp(backWheel.motorSpeed + deacceleration * Time.fixedDeltaTime, 0, maxBackSpeed);
             if (ControlCar[0].clickedIs == true)
             {
-                backWheel.motorSpeed = Mathf.Clamp(backWheel.motorSpeed - (acceleration - gravity * (angleCar / 2) * (GetComponent<Rigidbody2D>().velocity.sqrMagnitude * 1.75f)) * Time.fixedDeltaTime, maxSpeed, maxBackSpeed);
+                backWheel.motorSpeed = Mathf.Clamp(backWheel.motorSpeed - (acceleration - gravity * (angleCar / 2)) * Time.fixedDeltaTime, maxSpeed, maxBackSpeed);
                 currentFuel -= (fuelUsage /1.25f) * Time.deltaTime; //минисуем бензин
             }
         }
